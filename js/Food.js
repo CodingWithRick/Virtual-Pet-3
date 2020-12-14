@@ -2,10 +2,10 @@ class Food {
     constructor() {
         this.foodStock = 0;
         this.lastFed;
-        this.image = loadImage("../Milk.png");
-        this.bed = loadImage("../bed.png");
-        this.wr = loadImage("../wr.png");
-        this.garden = loadImage("../garden.png");
+        this.image = loadImage("Milk.png");
+        this.bed = loadImage("bed.png");
+        this.wr = loadImage("wr.png");
+        this.garden = loadImage("garden.png");
     }
 
     updateFoodStock(foodStock) {
